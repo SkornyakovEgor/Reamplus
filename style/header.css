@@ -20,7 +20,7 @@ header>div>div{
     Line-height: 18.2px;
     font-size: 14px;
     font-weight: 700;
-
+    cursor: pointer;
 }
 
 #address{

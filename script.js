@@ -61,7 +61,6 @@ tab.forEach(function(element){
 
 function showTabs(){
   let data = this.getAttribute('data');
-  console.log(data);
   init(0); 
   document.querySelector(`.activity-content[data ="${data}"]`).style.display = 'block';
   document.querySelector(`.dot[data ="${data}"]`).classList.add("active");

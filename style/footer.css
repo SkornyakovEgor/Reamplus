@@ -3,9 +3,13 @@ footer>div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: #AA9FA1;
     line-height: 12px;
     margin-top: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #AA9FA1;
 }
 
 .bold-item{
