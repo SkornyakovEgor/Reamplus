@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: ibm_plex_sansbold;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    color: #0E0A19;
+}   
+
+a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF3B3D;
+    padding: 20px;
+    margin-top: 50px;
+}

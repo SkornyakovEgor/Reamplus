@@ -1,0 +1,74 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header>div>div{
+    margin-left: 30px;
+}
+
+.logo{
+    font-family: ibm_plex_monobold;
+    padding-top: 16px;
+    Line-height: 18.2px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+#address{
+    font-weight: 600;
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+#phone-number{
+    width: 142px;
+    height: 60px;
+    background: #312F2F;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#phone-number p{
+    width: 100%;
+}
+
+#phone-number span{
+    font-weight: 600;
+}
+
+#burger{
+    width: 70px;
+    height: 60px;
+    background: #FF3B3D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#burger div{
+    width: 36px;
+    height: 4px;
+    background-color: #fff;
+    border: none;
+    margin: 5px 0;
+}
+
+
+

@@ -1,0 +1,53 @@
+#calculate-the-cost{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 650px;
+}
+
+#paper-block{
+    background-color: #FF3B3D;
+    color: #fff;
+    width: 475px;
+    height: 574px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+#paper-block>img{
+    position: absolute;
+    right:-100px;
+    top: -80px;
+}
+
+#payment-form p{
+    color: #C4C4C4;
+}
+
+#payment-form h1{
+    margin-bottom: 24px;
+}
+
+#papder-block-text{
+    padding: 55px;
+    padding-right: 150px;
+}
+
+#papder-block-text{
+    font-weight: 600;
+}
+
+#papder-block-text h3{
+    padding-right: 150px;
+    margin-bottom: 20px;
+}
+
+#papder-block-text p{
+    padding: 5px 0;
+}
+

@@ -1,0 +1,31 @@
+.modal-wrap{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.pop-up{
+    background-color: #fff;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-button{
+    color: #fff;
+    background-color: #FF3B3D; 
+    border: none;
+    padding: 10px 13px;
+    align-self: flex-end
+}
+
+.hide{
+    display: none;
+}

@@ -1,0 +1,50 @@
+#order-a-free-paymant{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-right: -115px;
+}
+
+#order-a-free-paymant-form{
+    background-color: #E8DFE0;
+    padding: 42px 150px 100px 100px;
+
+}
+
+#order-a-free-paymant-form h2{
+    margin-bottom: 38px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+#order-a-free-paymant-form p{
+    font-size: 14px;
+    line-height: 15px;
+}
+
+#second-check{
+    font-size: 12px !important;
+}
+
+#title-paymant{
+    position: relative;
+}
+
+#title-paymant>div{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+}
+
+#title-paymant>h1{
+    margin-top: 20px;
+}
+
+#title-paymant>div img{
+
+}
+

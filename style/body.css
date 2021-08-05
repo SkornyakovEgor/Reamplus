@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: ibm_plex_sansregular;
+    margin: 0 115px;
+}
+
+h1{
+    font-size: 48px;
+    font-family: ibm_plex_sansbold;
+    font-weight: 600;
+    line-height: 50px;
+    color: #0E0A19;
+}
+
+h2{
+    color: #0E0A19;
+}
+
+button{
+    cursor: pointer;
+    z-index: 100;
+}
+
+.order-button{
+    width: 263px;
+    height: 76px;
+    border: 1px solid #312F2F;
+    position: relative;
+    margin-left: 6px;
+    margin-top: -6px;
+    transition: all 0.1s ;
+}
+
+.main-buttom{
+    width: 263px;
+    height: 76px;
+    background: #312F2F;
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 21px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 10px;
+    transition: all 0.1s;
+}
+
+#button-3d{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-3d div{
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+#button-3d img{
+    position: absolute;
+}
+
+#idea-button{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    
+}
+
+.order-button:hover .main-buttom{
+    background-color: #FF3B3D;
+}
+
+.order-button:hover{
+    border: 1px solid #FF3B3D;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.form-for-all{
+    display: grid;
+    grid-template-areas: "form1 form2"
+                         "form3 files"
+                         "agree button";
+    row-gap: 20px;
+    column-gap: 30px;
+}
+
+.form-for-all{
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.form1{
+    grid-area: "form1";
+}
+
+.form2{
+    grid-area: "form2";
+}
+
+.form3{
+    grid-area: "form3";
+}
+
+.agree{
+    grid-area: "agreee";
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.form1 input, .form2 input, .form3 input{
+    color: #c4c4c4;
+    font-size: 14px;
+    line-height: 15px;
+    padding: 20px;
+}
+
+.form1 input:focus, .form2 input:focus, .form3 input:focus{
+    outline: solid 2px #FF3B3D;
+    color: #FF3B3D;
+}
+
+.form1:focus p, .form2:focus p, .form3:focus p{
+    color: #FF3B3D;
+}
+
+.check{
+    margin-right: 17px;
+    align-self: end;
+    cursor: pointer;
+}
+
+.files{
+    align-self: end;
+    display: flex;
+    flex-direction: row;
+}
+
+.files button{
+    background-color: #FF3B3D;
+    border: none;
+    width: 202px;
+    height: 76px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.down-arrow{
+    background-color: #0E0A19 !important;
+    width: 68px !important;
+
+}
+
+.form-button{
+    align-self: end;
+    margin-top: 20px;
+}
+
+.form-for-all input:not(.check){
+    border: 1px solid #E8DFE0;
+    box-sizing: border-box;
+    width: 270px;
+    height: 76px;
+    margin-top: 21px;
+}
+

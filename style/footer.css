@@ -1,0 +1,36 @@
+footer>div{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #AA9FA1;
+    line-height: 12px;
+    margin-top: 30px;
+}
+
+.bold-item{
+    color: #000;
+    font-size: 14px;
+    font-family: ibm_plex_sanssemibold;
+}
+
+footer li{
+    list-style-type: none;
+    margin: 13px 0;
+}
+
+#footer-logo{
+    color: #000;
+    padding-top: 0;
+    margin: 13px 0;
+}
+
+#copyright{
+    color:#312F2F;
+    margin:50px 0;
+    font-family: ibm_plex_sansregular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    }

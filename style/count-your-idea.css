@@ -1,0 +1,132 @@
+#count-your-idea{
+    border-top: 1px solid #FF3B3D;
+    border-bottom: 1px solid #FF3B3D;
+    display: flex;
+    flex-direction: row;
+    margin: 0 -115px;
+    margin-top: 100px;
+    padding: 0 115px;
+}
+
+#calculation-rooms{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+#phone-column1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#phone-column2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+#calculation-rooms p{
+    padding-bottom: 60px;
+    max-width: 110px;
+}
+
+#calculation-text1{
+    background-color: #FF3B3D;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    filter: drop-shadow(0px 40px 40px rgba(126, 136, 173, 0.25));
+    padding: 33px 131px 0 30px;
+    margin-bottom: 30px;
+}
+
+#calculation-text1 h2, #calculation-text2 h2, #calculation-text3 h2{
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#calculation-text2, #calculation-text3{
+    padding: 33px 131px 0 30px;
+}
+
+#calculation-text2 h2, #calculation-text3 h2{
+    color: #312F2F;
+    font-weight: 600;
+
+}
+
+#calculation-text2 p, #calculation-text3 p{
+    color: #FF3B3D;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+#smartphone{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    transition: all 0.2s;
+}
+
+#smartphone>div{
+    height: 100%;
+    overflow: hidden;
+    color: #fff;
+}
+
+#smartphone h2{
+    font-family: ibm_plex_sanslight;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    width: 150px;
+    padding: 70px 95px 30px 70px;
+}
+
+#smartphone>div{
+    background-image: url(../img/smartphone.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: absolute;
+}
+
+#smartphone:hover{
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#receipt{
+    background-image: url(../img/recepier.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#receipt h2{
+    color: #FF3B3D;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 30px 0;
+    font-family: ibm_plex_sansbold;
+    font-weight: 600;
+}
+
+
+#bloks-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 230px;
+}
+
+#bloks-title h3{
+    padding: 20px 0;
+}
+
