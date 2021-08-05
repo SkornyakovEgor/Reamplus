@@ -103,3 +103,8 @@
 .invisibility{
     opacity: 0;
 }
+
+.text-3d{
+    padding-right: 100px;
+    added indentation in the 3d tour block
+}
