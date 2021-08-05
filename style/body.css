@@ -187,3 +187,34 @@ button{
     margin-top: 21px;
 }
 
+
+.checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+    border: 1px solid #c4c4c4;
+    width: 18px;
+    height: 19px;
+    cursor: pointer;
+    position: relative;
+}
+.checkbox::before {
+    content: "🗸";
+    color: #fff;
+    background-color: #FF3B3D;
+    border-radius: 4px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    opacity: 0;
+    transition: .1s ease-in;
+}
+.checkbox:checked::before {
+    opacity: 1;
+}
