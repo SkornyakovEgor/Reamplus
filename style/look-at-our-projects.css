@@ -1,6 +1,6 @@
 #look-at-our-projects{
     margin-top: 60px;
-    w
+    width: 1119px;
 }
 
 #header-and-arrows{
@@ -31,7 +31,7 @@
 }
 
 #examples{
-    width: 100%;
+    width: 1119px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -70,8 +70,6 @@
     left: 0;
     transition: all ease .1s;
 }
-
-
 
 .card{
     width: 370px;
