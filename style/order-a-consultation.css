@@ -34,7 +34,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 130px;
-    margin-left: -115px;
+
 }
 
 .dot{
@@ -106,5 +106,4 @@
 
 .text-3d{
     padding-right: 100px;
-    added indentation in the 3d tour block
 }
