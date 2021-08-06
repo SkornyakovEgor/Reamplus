@@ -101,6 +101,6 @@ function makeTimer(){
 window.onscroll=showSlider;
 
 function showSlider(){
-  document.querySelector('.hide-slider').classList.remove('invisibility');
-  document.querySelector('.hide-dot').classList.remove('hide');
+  document.querySelector('.hide-slider').classList.add('visibility');
+  document.querySelector('.hide-dot').classList.add('visibility');
 }

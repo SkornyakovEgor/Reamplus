@@ -99,9 +99,17 @@
     from {opacity: .7} 
     to {opacity: 1}
 }
-
-.invisibility{
+.hide-slider {
     opacity: 0;
+}
+
+.hide-dot{
+    opacity: 0;
+}
+
+.visibility{
+    opacity: 1;
+    transition: all .9s;
 }
 
 .text-3d{
