@@ -45,6 +45,10 @@
     margin-bottom: 30px;
 }
 
+#calculation-text1 h2, #smartphone h2{
+    color: #fff;
+}
+
 #calculation-text1 h2, #calculation-text2 h2, #calculation-text3 h2{
     margin-bottom: 40px;
     font-size: 24px;
