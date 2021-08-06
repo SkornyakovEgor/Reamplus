@@ -35,7 +35,7 @@ function showModal(){
 }
 
 function closeModal(){
-  console.log(document.querySelector('.pop-up').parentElement.classList.add('hide'));
+  document.querySelector('.pop-up').parentElement.classList.add('hide');
   document.querySelector('.pop-up').classList.add('hide');
 }
 
@@ -103,4 +103,19 @@ window.onscroll=showSlider;
 function showSlider(){
   document.querySelector('.hide-slider').classList.add('visibility');
   document.querySelector('.hide-dot').classList.add('visibility');
+  if (document.querySelector("#menu").style.marginTop = "0px"){
+    document.querySelector("#menu").style.marginTop = "-1000px";
+  }
 }
+
+
+//---------------------------------------------------------------------------------------------------//
+
+document.querySelector("#burger").onclick = function(){
+  document.querySelector("#menu").style.marginTop = "0px";
+}
+document.querySelector("#close-menu").onclick = function(){
+  document.querySelector("#menu").style.marginTop = "-1000px";
+}
+
+//---------------------------------------------------------------------------------------------------//

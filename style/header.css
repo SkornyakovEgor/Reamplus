@@ -8,6 +8,7 @@ header>div{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    position: relative;
 }
 
 header>div>div{
@@ -70,5 +71,32 @@ header>div>div{
     margin: 5px 0;
 }
 
+#menu{
+    position: absolute;
+    background-color: #FF3B3D;
+    right: 0;
+    padding: 60px;
+    margin-top: -500px;
+    transition: all ease-in-out .2s;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+}
 
 
+#close-menu{
+    background-color: #FF3B3D;
+    width: 36px;
+    height: 4px;
+    font-size: 30px;
+    color: #fff;
+    border: none;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    margin: 40px;
+}
