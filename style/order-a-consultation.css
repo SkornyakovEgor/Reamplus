@@ -53,7 +53,7 @@
 }
 
 .active{
-    background-color: #312F2F !important;
+    background-color: #312F2F;
 }
 
 .text-and-botton{
@@ -77,11 +77,11 @@
 }
 
 #activity3{
-    background-color: #fff;
+    background-color: #FF3B3D;
 }
 
 #activity4{
-    background-color: #FF3B3D;
+    background-color: #fff;
 }
 
 .fade{
