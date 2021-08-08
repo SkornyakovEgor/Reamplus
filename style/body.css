@@ -6,6 +6,7 @@
 body{
     font-family: ibm_plex_sansregular;
     margin: 0 115px;
+    scroll-behavior: smooth;
 }
 
 h1{
@@ -218,3 +219,4 @@ button{
 .checkbox:checked::before {
     opacity: 1;
 }
+
